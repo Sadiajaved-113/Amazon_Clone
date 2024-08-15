@@ -14,13 +14,11 @@
 }
 .nav-logo {
     height: 50px;
-    width: 100px;
+    width: 150px;
 }
-.logo {
-    background-image: url("amazon_logo.png");
+.logo img {
     height: 50px;
-    width: 100%;
-    background-size: cover;
+    width: 150px;
 
 }
 .border {
@@ -127,9 +125,11 @@ span {
 
 /** hero section **/
 .hero-section {
-    background-image: url("Kitchen_photo.jpg");
-    background-size: cover;
     height: 300px;
+}
+.hero-section img{
+    height: 350px;
+    width: 1300px;
 }
 body {
     background-color: #d4d4d4;
@@ -163,35 +163,25 @@ body {
     display: flex;
    
 }
-.box-img1 {
-       background-image: url("headsets_photo.jpg");
-       background-size: cover;
-       background-position: center;
+.box-img1 img {
        height: 100px;
        width: 126px;
-       background-color: #0f1111;
+       background-color: white;
 }
-.box-img2 {
-    background-image: url("keyboards_photo.jpg");
-    background-size: cover;
-    background-position: center;
+.box-img2 img {
     height: 100px;
     width: 126px;
-    background-color: #0f1111;
+    background-color: white;
 }
-.box2-img1 {
-    background-image: url("computermick_photo.jpg");
-    background-size: cover;
-    background-position: center;
+.box2-img1 img {
     height: 115px;
     width: 126px;
+    background-color: white;
 }
-.box2-img2 {
- background-image: url("chairs_photo.jpg");
- background-size: cover;
- background-position: center;
+.box2-img2 img{
  height: 115px;
  width: 126px;
+ background-color: white;
 }
 .box p{
     font-size: 12px;
@@ -231,12 +221,10 @@ body {
     margin-right: 20px;
 }
 
-.box5-img {
-    border: 2px solid white;
-    background-image: url("PCs-photo.jpg");
-    background-size: cover;
-    background-position: center;
+.box5-img img {
     height: 300px;
+    width:  280px;
+    padding-left: 10px;
     
 }
 .box5 h2{
@@ -293,34 +281,19 @@ body {
     text-align: start;
     padding-left: 10px;
 }
-
-
-
-.box3-img1 {
-       background-image: url("Dinning_Photo.jpg");
-       background-size: cover;
-       background-position: center;
+.box3-img1 img {
        height: 116px;
        width:  126px;
 }
-.box3-img2 {
-    background-image: url("Home_photo.jpg");
-    background-size: cover;
-    background-position: center;
+.box3-img2 img {
     height: 116px;
     width: 126px;
 }
-.box3-img3 {
-    background-image: url("Kitcheen_photo.jpg");
-    background-size: cover;
-    background-position: center;
+.box3-img3 img {
     height: 116px;
     width: 126px;
 }
-.box3-img4 {
- background-image: url("Health&Beauty_Photo.jpg");
- background-size: cover;
- background-position: center;
+.box3-img4 img {
  height: 116px;
  width: 126px;
 }
@@ -360,31 +333,19 @@ body {
     text-align: start;
     padding-left: 10px;
 }
-.box4-img1 {
-    background-image: url("Jeans_photo.jpg");
-    background-size: cover;
-    background-position: center;
+.box4-img1 img {
     height: 116px;
     width:  126px;
 }
-.box4-img2 {
- background-image: url("Tops_photo.jpg");
- background-size: cover;
- background-position: center;
+.box4-img2 img {
  height: 116px;
  width: 126px;
 }
-.box4-img3 {
-    background-image: url("dresses_photo.jpg");
-    background-size: cover;
-    background-position: center;
+.box4-img3 img {
     height: 116px;
     width: 126px;
 }
-.box4-img4 {
- background-image: url("shoes_photo.jpg");
- background-size: cover;
- background-position: center;
+.box4-img4 img {
  height: 116px;
  width: 126px;
 }
@@ -392,79 +353,29 @@ body {
     display: flex;
     justify-content: space-evenly;
 }
-.Gadgets {
+.beauty-steals {
     border: 2px solid white;
     height: 350px;
     width:  305px;
     background-color: white;
    
 }
-.Gadgets h2{
+.beauty-steals h2{
     text-align: center;
     font-weight: 700px;
 }
-.Gadgets p{
-    font-size: 12px;
-    font-weight: 700px;
-    text-align: center;
-}
-.class4 p{
-    font-size: 13px;
+.beauty-steals p{
+    font-size: 14px;
     font-weight: 700px;
     color: rgb(18, 177, 240);
     text-align: start;
     padding-left: 10px;
 }
-.box-smartphones{
+.beauty-steals img{
     border: 2px solid white;
-    height: 100px;
+    height: 240px;
     width:  280px;
-    background-color: white;
-    display: flex;
-    margin-left: 15px;
-    margin-right: 30px;
-    justify-content: space-evenly;
-   
-}
-.Amazon-Gadgets {
-    border: 2px solid white;
-    height: 100px;
-    width:  280px;
-    background-color: white;
-    display: flex;
-    justify-content: space-evenly;
-}
- .img-smartphones{
-    background-image: url("smartphones_photo.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 100px;
-    width:  300px;
-    background-color: #0f1111;
-}
-.img-tablets{
-    background-image: url("Tablets_photo.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 75px;
-    width:  110px;
-    background-color: #0f1111;
-}
-.img-Laptops{
-    background-image: url("Laptops_photo.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 75px;
-    width:  113px;
-    background-color: #0f1111;
-}
-.Tvs{
-    background-image: url("TVs_photo.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 75px;
-    width:  113px;
-    background-color: #0f1111;
+    padding-left: 10px;
 }
 .Toys {
     border: 2px solid white;
@@ -479,11 +390,8 @@ body {
     margin-left: 15px;
    
 }
-.img-toys {
+.img-toys img{
     border: 2px solid white;
-    background-image: url("Toys_photo.jpg");
-    background-size: cover;
-    background-position: center;
     height: 240px;
     width:  280px;
     
@@ -543,31 +451,19 @@ body {
     text-align: start;
     padding-left: 10px;
 }
-.img-dresses {
-    background-image: url("dress_photo.jpg");
-    background-size: cover;
-    background-position: center;
+.img-dresses img {
     height: 116px;
     width:  126px;
 }
-.img-knits {
- background-image: url("Knits_photo.jpg");
- background-size: cover;
- background-position: center;
+.img-knits img {
  height: 116px;
  width: 126px;
 }
-.img-jackets {
-    background-image: url("jackets_photo.jpg");
-    background-size: cover;
-    background-position: center;
+.img-jackets img {
     height: 116px;
     width: 126px;
 }
-.img-jewellry {
- background-image: url("jewelry_photo.jpg");
- background-size: cover;
- background-position: center;
+.img-jewellry img {
  height: 116px;
  width: 126px;
 }
@@ -584,11 +480,8 @@ body {
     margin-left: 15px;
    
 }
-.img-decor {
+.img-decor img {
     border: 2px solid white;
-    background-image: url("Homedecor_photo.jpg");
-    background-size: cover;
-    background-position: center;
     height: 240px;
     width:  280px;
     
@@ -626,10 +519,7 @@ body {
     background-color: white;
    
 }
-.img-product1 {
-    background-image: url("product1_photo.jpg");
-    background-size: cover;
-    background-position: center;
+.img-product1 img{
     height: 177px;
     width:  270px;
 }
@@ -640,12 +530,9 @@ body {
     background-color: white;
    
 }
-.img-product2 {
-    background-image: url("Product2_photo.jpg");
-    background-size: cover;
-    background-position: center;
+.img-product2 img {
     height: 200px;
-    width:  184px;
+    width:  70px;
 }
 .product-3 {
     border: 2px solid white;
@@ -654,12 +541,9 @@ body {
     background-color: white;
    
 }
-.img-product3 {
-    background-image: url("Product3_photo.jpg");
-    background-size: cover;
-    background-position: center;
+.img-product3 img{
     height: 200px;
-    width:  198px;
+    width:  157px;
 }
 .product-4 {
     border: 2px solid white;
@@ -668,26 +552,20 @@ body {
     background-color: white;
    
 }
-.img-product4 {
-    background-image: url("Product4_photo.jpg");
-    background-size: cover;
-    background-position: center;
+.img-product4 img {
     height: 200px;
-    width:  225x;
+    width:  106x;
 }
 .product-5 {
     border: 2px solid white;
     height: 200px;
-    width:  120px;
+    width:  270px;
     background-color: white;
    
 }
-.img-product5 {
-    background-image: url("Product5_photo.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 190px;
-    width:  100px;
+.img-product5 img {
+    height: 175px;
+    width:  270px;
 }
 .product-6 {
     border: 2px solid white;
@@ -696,104 +574,8 @@ body {
     background-color: white;
    
 }
-.img-product6 {
-    background-image: url("product6_photo.jpg");
-    background-size: cover;
-    background-position: center;
+.img-product6 img {
     height: 200px;
-    width:  225px;
-}
-.heading h2{
-    border: 2px solid white;
-    font-weight: 700px;
-    height: 31px;
-    width:  1280px;
-    background-color: white;
-   
-}
-
-.Seller-section{
-    background-color: white;
-  
-}
-.Toy-Sellers{
-    border: 2px solid white;
-    height: 220px;
-    background-color: white;
-    display: flex;
-    padding-left: 20px;
-    justify-content: space-evenly;
-   
-}
-
-.seller-1 {
-    border: 2px solid white;
-    height: 200px;
-    width:  270px;
-    background-color: white;
-   
-}
-.img-seller1 {
-    background-image: url("seller1_photo.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 177px;
-    width:  270px;
-}
-.seller-2 {
-    border: 2px solid white;
-    height: 200px;
-    width:  184px;
-    background-color: white;
-   
-}
-.img-seller2 {
-    background-image: url("seller2_photo.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 200px;
-    width:  184px;
-}
-.seller-3 {
-    border: 2px solid white;
-    height: 200px;
-    width:  198px;
-    background-color: white;
-   
-}
-.img-seller3 {
-    background-image: url("seller3_photo.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 200px;
-    width:  198px;
-}
-.seller-4 {
-    border: 2px solid white;
-    height: 200px;
-    width:  225px;
-    background-color: white;
-   
-}
-.img-seller4 {
-    background-image: url("seller4_photo.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 200px;
-    width:  225x;
-}
-.seller-5 {
-    border: 2px solid white;
-    height: 200px;
-    width:  120px;
-    background-color: white;
-   
-}
-.img-seller5 {
-    background-image: url("seller5_photo.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 190px;
     width:  100px;
 }
 .heading h2{
@@ -840,17 +622,11 @@ body {
     margin-right: 15px;
     justify-content: space-evenly;
 }
-.img-Apparel {
-    background-image: url("Apparel_photo.jpg");
-    background-size: cover;
-    background-position: center;
+.img-Apparel img {
     height: 116px;
     width:  126px;
 }
-.img-Hats {
-    background-image: url("Hats_photo.jpg");
-    background-size: cover;
-    background-position: center;
+.img-Hats img {
     height: 116px;
     width:  126px;
 }
@@ -861,10 +637,7 @@ body {
     height: 116px;
     width:  126px;
 }
-.img-Mugs {
-    background-image: url("Mugs_photo.jpg");
-    background-size: cover;
-    background-position: center;
+.img-Mugs img {
     height: 116px;
     width:  126px;
 }
@@ -943,15 +716,11 @@ body {
     height: 100px;
     width:  300px;
 }
-.img-smartwatch {
+.img-smartwatch img {
     border: 2px solid white;
-    background-image: url("smartwatches_photo.jpg");
-    background-size: cover;
-    background-position: center;
     margin-left: 15px;
     height: 240px;
     width:  240px;
-    
 }
 .garlands-outdoors {
     border: 2px solid white;
@@ -959,8 +728,6 @@ body {
     width:  300px;
     display: flex;
     justify-content: space-evenly;
-   
-    
 }
 .pillow-walls {
     border: 2px solid white;
@@ -969,31 +736,19 @@ body {
     display: flex;
     justify-content: space-evenly;
 }
-.img-garlands {
-    background-image: url("garlands_photo.jpg");
-    background-size: cover;
-    background-position: center;
+.img-garlands img{
     height: 116px;
     width:  126px;
 }
-.img-outdoors {
-    background-image: url("decors_photo.jpg");
-    background-size: cover;
-    background-position: center;
+.img-outdoors img{
     height: 116px;
     width:  126px;
 }
-.img-pillow {
-    background-image: url("pillow_photo.jpg");
-    background-size: cover;
-    background-position: center;
+.img-pillow img {
     height: 116px;
     width:  126px;
 }
-.img-walls {
-    background-image: url("wall_photo.jpg");
-    background-size: cover;
-    background-position: center;
+.img-walls img {
     height: 116px;
     width:  126px;
 }
@@ -1002,11 +757,8 @@ body {
     height: 100px;
     width:  300px;
 }
-.img-shoes {
+.img-shoes img{
     border: 2px solid white;
-    background-image: url("shoes_photo.jpg");
-    background-size: cover;
-    background-position: center;
     height: 250px;
     width: 250px;
     margin-left: 15px;
@@ -1032,68 +784,53 @@ body {
     background-color: white;
    
 }
-.img-sell1 {
-    background-image: url("toy1_photo.jpg");
-    background-size: cover;
-    background-position: center;
+.img-sell1 img {
     height: 200px;
-    width:  200px;
+    width:  144px;
 }
 .sell-2 {
     border: 2px solid white;
     height: 200px;
-    width:  150px;
+    width:  184px;
     background-color: white;
    
 }
-.img-sell2 {
-    background-image: url("toy2_photo.jpg");
-    background-size: cover;
-    background-position: center;
+.img-sell2 img {
     height: 200px;
-    width:  250px;
+    width:  184px;
 }
 .sell-3 {
     border: 2px solid white;
     height: 200px;
-    width:  150px;
+    width:  145px;
     background-color: white;
    
 }
-.img-sell3 {
-    background-image: url("toy3_photo.jpg");
-    background-size: cover;
-    background-position: center;
+.img-sell3 img {
     height: 200px;
-    width:  150px;
+    width:  85px;
 }
 .sell-4 {
     border: 2px solid white;
     height: 200px;
-    width:  150px;
+    width:  260px;
     background-color: white;
    
 }
-.img-sell4 {
-    background-image: url("toy4_photo.jpg");
-    background-size: cover;
-    background-position: center;
+.img-sell4 img {
     height: 200px;
-    width:  150x;
+    width:  253x;
 }
 .sell-5 {
     border: 2px solid white;
     height: 200px;
-    width:  150px;
+    width:  230px;
     background-color: white;
    
 }
-.img-sell5 {
-    background-image: url("toy5_photo.jpg");
-    background-size: cover;
-    background-position: center;
+.img-sell5 img {
     height: 200px;
-    width:  150px;
+    width:  222px;
 }
 .heading1 h2{
     border: 2px solid white;
@@ -1104,89 +841,72 @@ body {
    
 }
 
-.product-section{
+.Movies-section{
     background-color: white;
     justify-content: space-evenly;
 }
-.popular-products{
+.popular-Movies{
     border: 2px solid white;
     height: 220px;
     background-color: white;
     display: flex;
-    padding-left: 20px;
     justify-content: space-evenly;
-   
-}
+   }
 
-.Ntro {
+.Movie1{
     border: 2px solid white;
     height: 200px;
-    width:  150px;
+    width:  145px;
     background-color: white;
    
 }
-.img-Nitro {
-    background-image: url("Nitro_photo.jpg");
-    background-size: cover;
-    background-position: center;
+.img-Movie1 img {
     height: 200px;
-    width:  200px;
+    width:  133px;
 }
-.gaming-monitor {
+.Movie2 {
     border: 2px solid white;
     height: 200px;
-    width:  150px;
+    width:  157px;
     background-color: white;
    
 }
-.img-monitor {
-    background-image: url("Monitor_photo.jpg");
-    background-size: cover;
-    background-position: center;
+.img-Movie2 img {
     height: 200px;
-    width:  250px;
+    width:  160px;
 }
-.san-disk{
+.Movie3{
     border: 2px solid white;
     height: 200px;
-    width:  150px;
+    width:  157px;
     background-color: white;
    
 }
-.img-sandisk {
-    background-image: url("sandisk_photo.jpg");
-    background-size: cover;
-    background-position: center;
+.img-Movie3 img{
     height: 200px;
-    width:  150px;
+    width:  156px;
 }
-.WD-Black {
+.Movie4 {
     border: 2px solid white;
     height: 200px;
-    width:  150px;
+    width:  270px;
     background-color: white;
    
 }
-.img-Black {
-    background-image: url("black_photo.jpg");
-    background-size: cover;
-    background-position: center;
+.img-Movie4 img {
     height: 200px;
-    width:  150x;
+    width:  270x;
 }
-.samsung {
+.Movie5 {
     border: 2px solid white;
     height: 200px;
-    width:  150px;
+    width:  143px;
     background-color: white;
    
 }
-.img-samsung {
-    background-image: url("samsung_photo.jpg");
-    background-size: cover;
-    background-position: center;
+.img-Movie5 img {
     height: 200px;
-    width:  150px;
+    width:  143px;
 }
 .heading2 h2{
     border: 2px solid white;
@@ -1196,146 +916,6 @@ body {
     background-color: white;
    
 }
-
-
-
-
-.item-season{
-    background-color: white;
-    justify-content: space-evenly;
-}
-.Popular-items{
-    border: 2px solid white;
-    height: 220px;
-    background-color: white;
-    display: flex;
-    padding-left: 20px;
-    justify-content: space-evenly;
-   
-}
-
-.Precipice{
-    border: 2px solid white;
-    height: 200px;
-    width:  145px;
-    background-color: white;
-   
-}
-.img-precipice {
-    background-image: url("precipice_photo.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 200px;
-    width:  133px;
-}
-.Good-better {
-    border: 2px solid white;
-    height: 200px;
-    width:  145px;
-    background-color: white;
-   
-}
-.img-better {
-    background-image: url("Better_photo.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 200px;
-    width:  133px;
-}
-.scout{
-    border: 2px solid white;
-    height: 200px;
-    width:  145px;
-    background-color: white;
-   
-}
-.img-scout {
-    background-image: url("scout_photo.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 200px;
-    width:  132px;
-}
-.future {
-    border: 2px solid white;
-    height: 200px;
-    width:  145px;
-    background-color: white;
-   
-}
-.img-future {
-    background-image: url("future_photo.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 200px;
-    width:   133x;
-}
-.bostrom{
-    border: 2px solid white;
-    height: 200px;
-    width:  145px;
-    background-color: white;
-   
-}
-.img-bostrom {
-    background-image: url("bostrom_photo.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 200px;
-    width:  133px;
-}
-.petersinger{
-    border: 2px solid white;
-    height: 200px;
-    width:  145px;
-    background-color: white;
-   
-}
-.img-singer {
-    background-image: url("peter_photo.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 200px;
-    width:  134px;
-}
-.Hours{
-    border: 2px solid white;
-    height: 200px;
-    width:  145px;
-    background-color: white;
-   
-}
-.img-hours {
-    background-image: url("hours_photo.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 200px;
-    width:  133px;
-}
-.universe{
-    border: 2px solid white;
-    height: 200px;
-    width:  145px;
-    background-color: white;
-   
-}
-.img-universe  {
-    background-image: url("universe_photo.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 200px;
-    width:  133px;
-}
-
-.heading3 h2{
-    border: 2px solid white;
-    font-weight: 700px;
-    height: 31px;
-    width:  1280px;
-    background-color: white;
-   
-}
-
 .Dining-section{
     background-color: white;
     justify-content: space-evenly;
@@ -1349,18 +929,13 @@ body {
     justify-content: space-evenly;
    
 }
-
 .Bounty {
     border: 2px solid white;
     height: 200px;
     width:  186px;
     background-color: white;
-   
-}
-.img-Bounty {
-    background-image: url("Bounty_photo.jpg");
-    background-size: cover;
-    background-position: center;
+   }
+.img-Bounty img {
     height: 200px;
     width:  186px;
 }
@@ -1371,12 +946,9 @@ body {
     background-color: white;
    
 }
-.img-bottle1 {
-    background-image: url("bottle1_photo.jpg");
-    background-size: cover;
-    background-position: center;
+.img-bottle1 img {
     height: 200px;
-    width:  59px;
+    width:  100px;
 }
 .bottle2{
     border: 2px solid white;
@@ -1385,12 +957,9 @@ body {
     background-color: white;
    
 }
-.img-bottle2 {
-    background-image: url("bottle2_photo.jpg");
-    background-size: cover;
-    background-position: center;
+.img-bottle2 img {
     height: 200px;
-    width:  91px;
+    width:  59px;
 }
 .bottle3 {
     border: 2px solid white;
@@ -1399,26 +968,20 @@ body {
     background-color: white;
    
 }
-.img-bottle3 {
-    background-image: url("bottle3_photo.jpg");
-    background-size: cover;
-    background-position: center;
+.img-bottle3 img {
     height: 200px;
     width:  68x;
 }
-.presto{
+.bottle4{
     border: 2px solid white;
     height: 200px;
-    width:  270px;
+    width:  300px;
     background-color: white;
    
 }
-.img-presto {
-    background-image: url("presto_photo.jpg");
-    background-size: cover;
-    background-position: center;
+.img-bottle4 img {
     height: 200px;
-    width:  270px;
+    width:  300px;
 }
 .scott{
     border: 2px solid white;
@@ -1427,7 +990,7 @@ body {
     background-color: white;
    
 }
-.img-scott {
+.img-scott img {
     background-image: url("scott_photo.jpg");
     background-size: cover;
     background-position: center;
@@ -1443,11 +1006,6 @@ body {
     background-color: white;
    
 }
-
-
-
-
-
 .sports-section{
     background-color: white;
     justify-content: space-evenly;
@@ -1465,86 +1023,61 @@ body {
 .LB {
     border: 2px solid white;
     height: 200px;
-    width:  228px;
+    width:  142px;
     background-color: white;
    
 }
-.img-LB {
-    background-image: url("LB_photo.jpg");
-    background-size: cover;
-    background-position: center;
+.img-LB img {
     height: 200px;
-    width:  228px;
+    width:  68px;
 }
 .sports1{
     border: 2px solid white;
     height: 200px;
-    width:  145px;
+    width:  270px;
     background-color: white;
    
 }
-.img-sports1 {
-    background-image: url("sports1_photo.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 200px;
-    width:  68px;
+.img-sports1 img {
+    height: 125px;
+    width:  270px;
 }
 .sports2{
-    border: 2px solid white;
-    height: 200px;
-    width:  270px;
-    background-color: white;
-   
-}
-.img-sports2 {
-    background-image: url("sports2_photo.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 103px;
-    width:  270px;
-}
-.sports3 {
     border: 2px solid white;
     height: 200px;
     width:  187px;
     background-color: white;
    
 }
-.img-sports3 {
-    background-image: url("sports3_photo.jpg");
-    background-size: cover;
-    background-position: center;
+.img-sports2 img {
     height: 200px;
-    width:  187x;
+    width:  187px;
 }
+.sports3 {
+    border: 2px solid white;
+    height: 200px;
+    width:  203px;
+    background-color: white;
+   
+}
+.img-sports3 img {
+    height: 200px;
+    width:  203x;
+}
+
 .sports4{
     border: 2px solid white;
     height: 200px;
-    width:  145px;
+    width:  200px;
     background-color: white;
    
 }
-.img-sports4 {
-    background-image: url("sports4_photo.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 200px;
-    width:  105px;
-}
-.sports5{
-    border: 2px solid white;
-    height: 200px;
-    width:  270px;
-    background-color: white;
-   
-}
-.img-sports5 {
+.img-sports4 img{
     background-image: url("sports5_photo.jpg");
     background-size: cover;
     background-position: center;
     height: 200px;
-    width:  270px;
+    width:  200px;
 }
 
 .heading5 h2{
@@ -1555,7 +1088,6 @@ body {
     background-color: white;
    
 }
-
 
 .beauty-section{
     background-color: white;
@@ -1568,8 +1100,7 @@ body {
     display: flex;
     padding-left: 20px;
     justify-content: space-evenly;
-   
-}
+   }
 
 .prod1{
     border: 2px solid white;
@@ -1578,10 +1109,7 @@ body {
     background-color: white;
    
 }
-.img-prod1 {
-    background-image: url("prod1_photo.jpg");
-    background-size: cover;
-    background-position: center;
+.img-prod1 img {
     height: 200px;
     width:  90px;
 }
@@ -1593,9 +1121,6 @@ body {
    
 }
 .img-prod2 {
-    background-image: url("prod2_photo.jpg");
-    background-size: cover;
-    background-position: center;
     height: 200px;
     width:  194px;
 }
@@ -1607,9 +1132,6 @@ body {
    
 }
 .img-prod3 {
-    background-image: url("prod3_photo.jpg");
-    background-size: cover;
-    background-position: center;
     height: 200px;
     width:  53px;
 }
@@ -1630,30 +1152,25 @@ body {
 .prod5{
     border: 2px solid white;
     height: 200px;
-    width:  197px;
-    background-color: white;
-   
-}
-.img-prod5 {
-    background-image: url("prod5_photo.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 200px;
-    width:  197px;
-}
-.prod6{
-    border: 2px solid white;
-    height: 200px;
     width:  145px;
     background-color: white;
    
 }
-.img-prod6 {
-    background-image: url("prod6_photo.jpg");
-    background-size: cover;
-    background-position: center;
+.img-prod5 img {
+
     height: 200px;
-    width:  100px;
+    width:  103px;
+}
+.prod6{
+    border: 2px solid white;
+    height: 200px;
+    width:  197px;
+    background-color: white;
+   
+}
+.img-prod6 img {
+    height: 200px;
+    width:  197px;
 }
 
 .heading6 h2{
@@ -1713,17 +1230,17 @@ body {
     text-align: start;
     padding-left: 10px;
 }
-.work-section {
+.players-section {
     border: 2px solid white;
     height: 360px;
     width:  305px;
     background-color: white;
 }
-.work-section h2{
+.players-section h2{
     text-align: center;
     font-weight: 700px;
 }
-.work-section p{
+.players-section p{
     font-size: 14px;
     font-weight: 700px;
     color: rgb(18, 177, 240);
@@ -1774,37 +1291,22 @@ body {
     margin-right: 15px;
     justify-content: space-evenly;
 }
-.outfit1-img {
-    background-image: url("outfit1_photo.jpg");
-    background-size: cover;
-    background-position: center;
+.outfit1-img img {
     height: 116px;
     width:  126px;
 }
-.outfit2-img {
-    background-image: url("outfit2_photo.jpg");
-    background-size: cover;
-    background-position: center;
+.outfit2-img img {
     height: 116px;
     width:  126px;
 }
-.outfit3-img {
-    background-image: url("outfit3_photo.jpg");
-    background-size: cover;
-    background-position: center;
+.outfit3-img img {
     height: 116px;
     width:  126px;
 }
-.outfit4-img {
-    background-image: url("outfit4_photo.jpg");
-    background-size: cover;
-    background-position: center;
+.outfit4-img img {
     height: 116px;
     width:  126px;
 }
-
-
-
 .pc-xbox{
     border: 2px solid white;
     height: 100px;
@@ -1825,49 +1327,31 @@ body {
     margin-right: 15px;
     justify-content: space-evenly;
 }
-.img-pc {
-    background-image: url("pc_photo.jpg");
-    background-size: cover;
-    background-position: center;
+.img-pc img {
     height: 116px;
     width:  126px;
 }
-.img-xbox {
-    background-image: url("xbox_photo.jpg");
-    background-size: cover;
-    background-position: center;
+.img-xbox img {
     height: 116px;
     width:  126px;
 }
-.img-play {
-    background-image: url("play_photo.jpg");
-    background-size: cover;
-    background-position: center;
+.img-play img{
     height: 116px;
     width:  126px;
 }
-.img-switch{
-    background-image: url("switch_photo.jpg");
-    background-size: cover;
-    background-position: center;
+.img-switch img{
     height: 116px;
     width:  126px;
 }
-.computers{
+.para{
     border: 2px solid white;
-    height: 100px;
+    height: 250px;
+    width:  270px;
+}
+.img-para img{
+    height: 250px;
     width:  300px;
-}
-.img-computers{
-    border: 2px solid white;
-    background-image: url("computers_photo.jpg");
-    background-size: cover;
-    background-position: center;
-    margin-left: 15px;
-    height: 240px;
-    width:  240px;
-    
-}
+    }
 
 .play-section{
     border: 2px solid white;
@@ -1889,31 +1373,19 @@ body {
     margin-right: 15px;
     justify-content: space-evenly;
 }
-.playsets-img{
-    background-image: url("sets_photo.jpg");
-    background-size: cover;
-    background-position: center;
+.playsets-img img{
     height: 116px;
     width:  126px;
 }
-.learning-img {
-    background-image: url("learning_photo.jpg");
-    background-size: cover;
-    background-position: center;
+.learning-img img {
     height: 116px;
     width:  126px;
 }
-.img-action1{
-    background-image: url("figure_photo.jpg");
-    background-size: cover;
-    background-position: center;
+.img-action1 img{
     height: 116px;
     width:  126px;
 }
-.playtoys-img {
-    background-image: url("playtoy_photo.jpg");
-    background-size: cover;
-    background-position: center;
+.playtoys-img img {
     height: 116px;
     width:  126px;
 }
@@ -1938,10 +1410,7 @@ body {
     background-color: white;
    
 }
-.img-book1 {
-    background-image: url("book1_photo.jpg");
-    background-size: cover;
-    background-position: center;
+.img-book1 img {
     height: 200px;
     width:  133px;
 }
@@ -1952,10 +1421,7 @@ body {
     background-color: white;
    
 }
-.img-book2 {
-    background-image: url("book2_photo.jpg");
-    background-size: cover;
-    background-position: center;
+.img-book2 img {
     height: 200px;
     width:  133px;
 }
@@ -1966,10 +1432,7 @@ body {
     background-color: white;
    
 }
-.img-book3 {
-    background-image: url("book3_photo.jpg");
-    background-size: cover;
-    background-position: center;
+.img-book3 img {
     height: 200px;
     width:  132px;
 }
@@ -1980,10 +1443,7 @@ body {
     background-color: white;
    
 }
-.img-book4{
-    background-image: url("book4_photo.jpg");
-    background-size: cover;
-    background-position: center;
+.img-book4 img{
     height: 200px;
     width:   133x;
 }
@@ -1994,10 +1454,7 @@ body {
     background-color: white;
    
 }
-.img-book5 {
-    background-image: url("book5_photo.jpg");
-    background-size: cover;
-    background-position: center;
+.img-book5 img{
     height: 200px;
     width:  133px;
 }
@@ -2008,10 +1465,7 @@ body {
     background-color: white;
    
 }
-.img-book6{
-    background-image: url("book6_photo.jpg");
-    background-size: cover;
-    background-position: center;
+.img-book6 img{
     height: 200px;
     width:  134px;
 }
@@ -2022,10 +1476,7 @@ body {
     background-color: white;
    
 }
-.img-book7 {
-    background-image: url("book7_photo.jpg");
-    background-size: cover;
-    background-position: center;
+.img-book7 img{
     height: 200px;
     width:  133px;
 }
@@ -2036,10 +1487,7 @@ body {
     background-color: white;
    
 }
-.img-book8  {
-    background-image: url("book8_photo.jpg");
-    background-size: cover;
-    background-position: center;
+.img-book8 img{
     height: 200px;
     width:  133px;
 }
@@ -2149,12 +1597,9 @@ button {
     margin-left: 300px;
 
  }
- .logo {
-    background-image: url("amazon_logo.png");
+ .logo img {
     height: 50px;
     width: 100px;
-    background-size: cover;
-    background-position: center;
     background-color: white;
  }
  .pannel-section2{
