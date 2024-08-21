@@ -171,7 +171,6 @@ span {
 }
 .hero-section img{
     height: 600px;
-    width: 1300px;
 }
 body {
     background-color: rgba(230, 235, 240, 0.87);
@@ -1575,7 +1574,6 @@ button {
     background-color: #37475a;
     color: white;
     height: 50px;
-    width: 1300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1585,7 +1583,6 @@ button {
     background-color: #222f3d;
     color: white;
     height: 300px;
-    width: 1300px;
     display: flex;
     justify-content: space-evenly;
     
@@ -1607,7 +1604,6 @@ button {
     color: white;
     border-top: 0.5px solid white;
     height: 90px;
-    width: 1300px;
     display: flex;
     align-items: center;
  }
@@ -1687,7 +1683,6 @@ button {
     color: white;
     border-top: 0.5px solid #131A22 ;
     height: 400px;
-    width: 1300px;
     display: flex;
     justify-content: space-evenly;
  }
@@ -1831,7 +1826,6 @@ button {
     background-color:  #131A22;
     color: white;
     height: 80px;
-    width: 1300px;
     font-size: 0.7rem;
     text-align: center;
  }
