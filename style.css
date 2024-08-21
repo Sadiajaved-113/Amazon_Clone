@@ -167,10 +167,11 @@ span {
 
 /** hero section **/
 .hero-section {
-    height: 400px;
+    height: 600px;
 }
 .hero-section img{
     height: 600px;
+    width: 1295px;
 }
 body {
     background-color: rgba(230, 235, 240, 0.87);
@@ -178,7 +179,7 @@ body {
 }
 .shopping-container{
     position: relative;
-    margin-top: -150px;
+    margin-top: -320px;
 }
 
 
