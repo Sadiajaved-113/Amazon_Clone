@@ -13,16 +13,18 @@
    
 }
 .nav-logo {
-    height: 50px;
-    width: 150px;
+    height: 60px;
+    width: 113px;
+    margin: 1px;
+    margin-right: 17px;
 }
-.logo img {
+.nav-logo img  {
     height: 50px;
-    width: 150px;
-
+    width: 113px;
+    padding: 10px 0px 0px 1px;
 }
-.border {
-    border: 1.5px solid transparent;
+.nav-logo:hover {
+    border: 1.5px solid white;
 }
 .border:hover {
     border: 1.5px solid white;
@@ -80,6 +82,31 @@
     border: 2px solid orange;
 }
 /** box4 **/
+.united-border{
+    padding-top: 10px;
+    height: 40px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.united-border:hover{
+    border: 2px solid white;
+}
+.united-border img{
+    height: 17px;
+    width: 20px;
+}
+.united-border p{
+    font: 16px;
+    color: white;
+    font-weight: 700px;
+}
+.england {
+    background-color: #0f1111;
+    border: black;
+}
+/** box5 **/
 span {
     font-size: 0.7rem;
 }
@@ -90,16 +117,12 @@ span {
 
 /**box6 **/
 .nav-cart i {
-    font-size: 30px;
+    font-size: 25px;
 }
-
-
-
 .nav-cart  {
     font-size: 0.85rem;
     font-weight: 700px;
 }
-
 /** pannel **/
 .pannel {
     height: 40px;
@@ -107,8 +130,7 @@ span {
     display: flex;
     color: white;
     align-items: center;
-    justify-content: space-evenly;
-
+    justify-content: start;
 }
 .pannel-options p {
     display: inline;
@@ -117,22 +139,47 @@ span {
 .pannel-options {
     width: 70%;
     font-size: 0.85rem;
-    
+    text-align: start;
+    display: flex;
 }
+.deal:hover {
+    border: 1.5px solid white;
+}
+.service:hover {
+    border: 1.5px solid white;
+}
+.Registry:hover {
+    border: 1.5px solid white;
+}
+.Cards:hover {
+    border: 1.5px solid white;
+}
+.Sell:hover {
+    border: 1.5px solid white;
+}
+
 .pannel-all {
-    margin-right: 200px;
+   margin-left: 20px;
+}
+.pannel-all:hover{
+    border: 1.5px solid white;
 }
 
 /** hero section **/
 .hero-section {
-    height: 300px;
+    height: 400px;
 }
 .hero-section img{
-    height: 350px;
+    height: 600px;
     width: 1300px;
 }
 body {
-    background-color: #d4d4d4;
+    background-color: rgba(230, 235, 240, 0.87);
+    
+}
+.shopping-container{
+    position: relative;
+    margin-top: -150px;
 }
 
 
@@ -140,27 +187,30 @@ body {
 .shop-section{
     display: flex;
     justify-content: space-evenly;
+    padding: 0px 10px 0px 10px;
 }
 .box {
     border: 2px solid white;
-    height: 360px;
-    width:  304px;
+    height: 380px;
+    width:  300px;
     background-color: white;
    
 }
 .box1 {
     border: 2px solid white;
     height: 100px;
-    width:  300px;
+    width:  280px;
     background-color: white;
     display: flex;
+    padding-left: 10px;
 }
 .box2 {
     border: 2px solid white;
     height: 100px;
-    width:  300px;
+    width:  280px;
     background-color: white;
     display: flex;
+    padding-left: 10px;
    
 }
 .box-img1 img {
@@ -197,26 +247,26 @@ body {
 }
 .box3 {
     border: 2px solid white;
-    height: 360px;
-    width:  305px;
+    height: 380px;
+    width:  300px;
     background-color: white;
 }
 .box4 {
     border: 2px solid white;
-    height: 360px;
-    width:  305x;
+    height: 380px;
+    width:  300x;
     background-color: white;
 }
 .box5 {
     border: 2px solid white;
-    height: 360px;
+    height: 380px;
     width:  300px;
     background-color: white;
 }
 .box5-pcs {
     border: 2px solid white;
     height: 100px;
-    width:  300px;
+    width:  280px;
     margin-left: 15px;
     margin-right: 20px;
 }
@@ -248,21 +298,15 @@ body {
 .box3-Spaces {
     border: 2px solid white;
     height: 100px;
-    width:  300px;
+    width:  280px;
     display: flex;
-    margin-left: 15px;
-    margin-right: 20px;
     justify-content: space-evenly;
-   
-    
 }
 .box3-items {
     border: 2px solid white;
     height: 100px;
-    width:  300px;
+    width:  280px;
     display: flex;
-    margin-left: 15px;
-    margin-right: 20px;
     justify-content: space-evenly;
 }
 .box3 h2{
@@ -300,7 +344,7 @@ body {
 .box4-fashions {
     border: 2px solid white;
     height: 100px;
-    width:  300px;
+    width:  280px;
     display: flex;
     margin-left: 15px;
     margin-right: 20px;
@@ -311,7 +355,7 @@ body {
 .box4-shops {
     border: 2px solid white;
     height: 100px;
-    width:  300px;
+    width:  280px;
     display: flex;
     margin-left: 15px;
     margin-right: 20px;
@@ -352,11 +396,12 @@ body {
 .explore-section{
     display: flex;
     justify-content: space-evenly;
+    padding: 0px 10px 0px 10px;
 }
 .beauty-steals {
     border: 2px solid white;
     height: 350px;
-    width:  305px;
+    width:  300px;
     background-color: white;
    
 }
@@ -380,7 +425,7 @@ body {
 .Toys {
     border: 2px solid white;
     height: 350px;
-    width:  305px;
+    width:  300px;
     background-color: white;
 }
 .box-toys {
@@ -412,13 +457,13 @@ body {
 .trends {
     border: 2px solid white;
     height: 350px;
-    width:  305x;
+    width:  300x;
     background-color: white;
 }
 .dresses-knits {
     border: 2px solid white;
     height: 100px;
-    width:  300px;
+    width:  280px;
     display: flex;
     margin-left: 15px;
     margin-right: 20px;
@@ -429,7 +474,7 @@ body {
 .jackets-jewellry {
     border: 2px solid white;
     height: 100px;
-    width:  300px;
+    width:  280px;
     display: flex;
     margin-left: 15px;
     margin-right: 20px;
@@ -470,7 +515,7 @@ body {
 .Home-decor {
     border: 2px solid white;
     height: 350px;
-    width:  305px;
+    width:  300px;
     background-color: white;
 }
 .decor {
@@ -501,6 +546,7 @@ body {
 .Product-section{
     padding-left: 20px;
     background-color: white;
+    margin: 10px 20px 10px 20px;
   
 }
 .baby-products{
@@ -509,7 +555,6 @@ body {
     background-color: white;
     display: flex;
     justify-content: space-round;
-   
 }
 
 .product-1 {
@@ -517,7 +562,6 @@ body {
     height: 200px;
     width:  270px;
     background-color: white;
-   
 }
 .img-product1 img{
     height: 177px;
@@ -526,7 +570,7 @@ body {
 .product-2 {
     border: 2px solid white;
     height: 200px;
-    width:  184px;
+    width:  100px;
     background-color: white;
    
 }
@@ -543,7 +587,7 @@ body {
 }
 .img-product3 img{
     height: 200px;
-    width:  157px;
+    width:  106px;
 }
 .product-4 {
     border: 2px solid white;
@@ -570,9 +614,8 @@ body {
 .product-6 {
     border: 2px solid white;
     height: 200px;
-    width:  70px;
+    width:  100px;
     background-color: white;
-   
 }
 .img-product6 img {
     height: 200px;
@@ -582,7 +625,6 @@ body {
     border: 2px solid white;
     font-weight: 700px;
     height: 31px;
-    width:  1280px;
     background-color: white;
    
 }
@@ -594,8 +636,8 @@ body {
 }
 .gaming-marchandise {
     border: 2px solid white;
-    height: 360px;
-    width:  305px;
+    height: 380px;
+    width:  306px;
     background-color: white;
 }
 .gaming-marchandise h2{
@@ -607,19 +649,13 @@ body {
     height: 100px;
     width:  300px;
     display: flex;
-    margin-left: 15px;
-    margin-right: 20px;
     justify-content: space-evenly;
-   
-    
 }
 .Action-Mugs {
     border: 2px solid white;
     height: 100px;
     width:  300px;
     display: flex;
-    margin-left: 15px;
-    margin-right: 15px;
     justify-content: space-evenly;
 }
 .img-Apparel img {
@@ -656,8 +692,8 @@ body {
 
 .shop-activity{
     border: 2px solid white;
-    height: 360px;
-    width:  307px;
+    height: 380px;
+    width:  306px;
     background-color: white;
 }
 .shop-activity h2{
@@ -674,8 +710,8 @@ body {
 }
 .warming-decor {
     border: 2px solid white;
-    height: 360px;
-    width:  305px;
+    height: 380px;
+    width:  306px;
     background-color: white;
 }
 .decor h2{
@@ -696,8 +732,8 @@ body {
 }
 .price {
     border: 2px solid white;
-    height: 360px;
-    width:  305px;
+    height: 380px;
+    width:  306px;
     background-color: white;
 }
 .price h2{
@@ -718,9 +754,9 @@ body {
 }
 .img-smartwatch img {
     border: 2px solid white;
-    margin-left: 15px;
     height: 240px;
-    width:  240px;
+    width:  260px;
+    padding-left: 20px;
 }
 .garlands-outdoors {
     border: 2px solid white;
@@ -760,12 +796,13 @@ body {
 .img-shoes img{
     border: 2px solid white;
     height: 250px;
-    width: 250px;
-    margin-left: 15px;
+    width: 260px;
+    padding-left: 20px;
 }
 .gaming-section{
     background-color: white;
     justify-content: space-evenly;
+    Margin: 10px 20px 10px 20px;
 }
 .game-Sellers{
     border: 2px solid white;
@@ -774,7 +811,6 @@ body {
     display: flex;
     padding-left: 20px;
     justify-content: space-evenly;
-   
 }
 
 .sell-1 {
@@ -836,7 +872,6 @@ body {
     border: 2px solid white;
     font-weight: 700px;
     height: 31px;
-    width:  1280px;
     background-color: white;
    
 }
@@ -844,6 +879,7 @@ body {
 .Movies-section{
     background-color: white;
     justify-content: space-evenly;
+    Margin: 10px 20px 10px 20px;
 }
 .popular-Movies{
     border: 2px solid white;
@@ -912,20 +948,20 @@ body {
     border: 2px solid white;
     font-weight: 700px;
     height: 31px;
-    width:  1280px;
     background-color: white;
    
 }
 .Dining-section{
     background-color: white;
     justify-content: space-evenly;
+    Margin: 10px 20px 10px 20px;
+    width:100vm;
 }
 .Kitchen-products{
     border: 2px solid white;
     height: 220px;
     background-color: white;
     display: flex;
-    padding-left: 20px;
     justify-content: space-evenly;
    
 }
@@ -942,7 +978,7 @@ body {
 .bottle1 {
     border: 2px solid white;
     height: 200px;
-    width:  145px;
+    width:  100px;
     background-color: white;
    
 }
@@ -953,7 +989,7 @@ body {
 .bottle2{
     border: 2px solid white;
     height: 200px;
-    width:  145px;
+    width:  59px;
     background-color: white;
    
 }
@@ -975,13 +1011,13 @@ body {
 .bottle4{
     border: 2px solid white;
     height: 200px;
-    width:  300px;
+    width:  200px;
     background-color: white;
    
 }
 .img-bottle4 img {
     height: 200px;
-    width:  300px;
+    width:  200px;
 }
 .scott{
     border: 2px solid white;
@@ -1002,28 +1038,25 @@ body {
     border: 2px solid white;
     font-weight: 700px;
     height: 31px;
-    width:  1280px;
     background-color: white;
-   
 }
-.sports-section{
+.Sports-section{
     background-color: white;
     justify-content: space-evenly;
+    margin-left: 20px;
+    margin-right: 20px;;
 }
 .outdoor-section{
     border: 2px solid white;
     height: 220px;
     background-color: white;
     display: flex;
-    padding-left: 20px;
     justify-content: space-evenly;
-   
 }
-
 .LB {
     border: 2px solid white;
     height: 200px;
-    width:  142px;
+    width:  70px;
     background-color: white;
    
 }
@@ -1033,14 +1066,15 @@ body {
 }
 .sports1{
     border: 2px solid white;
-    height: 200px;
-    width:  270px;
+    height: 125px;
+    width:  200px;
     background-color: white;
+    padding-top: 10px;
    
 }
 .img-sports1 img {
     height: 125px;
-    width:  270px;
+    width:  200px;
 }
 .sports2{
     border: 2px solid white;
@@ -1084,14 +1118,13 @@ body {
     border: 2px solid white;
     font-weight: 700px;
     height: 31px;
-    width:  1280px;
     background-color: white;
-   
 }
 
 .beauty-section{
     background-color: white;
     justify-content: space-evenly;
+    margin: 10px 20px 10px 20px;;
 }
 .beauty-products{
     border: 2px solid white;
@@ -1100,7 +1133,7 @@ body {
     display: flex;
     padding-left: 20px;
     justify-content: space-evenly;
-   }
+}
 
 .prod1{
     border: 2px solid white;
@@ -1177,18 +1210,17 @@ body {
     border: 2px solid white;
     font-weight: 700px;
     height: 31px;
-    width:  1280px;
     background-color: white;
-   
 }
 .season-section{
     display: flex;
     justify-content: space-evenly;
+    Padding: 0px 10px 0px 10px;
 }
 .outfit-section1{
     border: 2px solid white;
-    height: 360px;
-    width:  305px;
+    height: 380px;
+    width:  300px;
     background-color: white;
 }
 .outfit-section1 h2{
@@ -1210,8 +1242,8 @@ body {
 
 .games-section{
     border: 2px solid white;
-    height: 360px;
-    width:  307px;
+    height: 380px;
+    width:  300px;
     background-color: white;
 }
 .games-section h2{
@@ -1232,8 +1264,8 @@ body {
 }
 .players-section {
     border: 2px solid white;
-    height: 360px;
-    width:  305px;
+    height: 380px;
+    width:  300px;
     background-color: white;
 }
 .players-section h2{
@@ -1249,8 +1281,8 @@ body {
 }
 .fun-section {
     border: 2px solid white;
-    height: 360px;
-    width:  305px;
+    height: 380px;
+    width:  300px;
     background-color: white;
 }
 .fun-section h2{
@@ -1274,26 +1306,21 @@ body {
 .outfit{
     border: 2px solid white;
     height: 100px;
-    width:  300px;
+    width:  280px;
     display: flex;
-    margin-left: 15px;
-    margin-right: 20px;
     justify-content: space-evenly;
-   
-    
 }
 .outfits {
     border: 2px solid white;
     height: 100px;
-    width:  300px;
+    width:  280px;
     display: flex;
-    margin-left: 15px;
-    margin-right: 15px;
     justify-content: space-evenly;
 }
 .outfit1-img img {
     height: 116px;
     width:  126px;
+    padding-right: 10px;
 }
 .outfit2-img img {
     height: 116px;
@@ -1310,21 +1337,15 @@ body {
 .pc-xbox{
     border: 2px solid white;
     height: 100px;
-    width:  300px;
+    width:  280px;
     display: flex;
-    margin-left: 15px;
-    margin-right: 20px;
     justify-content: space-evenly;
-   
-    
 }
 .play-switch {
     border: 2px solid white;
     height: 100px;
     width:  300px;
     display: flex;
-    margin-left: 15px;
-    margin-right: 15px;
     justify-content: space-evenly;
 }
 .img-pc img {
@@ -1356,21 +1377,15 @@ body {
 .play-section{
     border: 2px solid white;
     height: 100px;
-    width:  300px;
+    width:  280px;
     display: flex;
-    margin-left: 15px;
-    margin-right: 20px;
     justify-content: space-evenly;
-   
-    
 }
 .figure {
     border: 2px solid white;
     height: 100px;
-    width:  300px;
+    width:  280px;
     display: flex;
-    margin-left: 15px;
-    margin-right: 15px;
     justify-content: space-evenly;
 }
 .playsets-img img{
@@ -1392,13 +1407,13 @@ body {
 .books-section{
     background-color: white;
     justify-content: space-evenly;
+    margin: 10px 20px 10px 20px;
 }
 .book-sellers{
     border: 2px solid white;
     height: 220px;
     background-color: white;
     display: flex;
-    padding-left: 20px;
     justify-content: space-evenly;
    
 }
@@ -1496,15 +1511,20 @@ body {
     border: 2px solid white;
     font-weight: 700px;
     height: 31px;
-    width:  1280px;
     background-color: white;
    
 }
 .outer {
     background-color: white;
-    height: 150px;
-    width:  1300px;
+    height: 200px;
 }
+.inner {
+    background-color: white;
+    border: 2px solid rgb(236, 228, 228);
+    border-radius: 10px;
+    height: 126x;
+}
+
 .recommendation{
    background-color: white;
    height: 15px;
@@ -1555,6 +1575,7 @@ button {
     background-color: #37475a;
     color: white;
     height: 50px;
+    width: 1300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1564,6 +1585,7 @@ button {
     background-color: #222f3d;
     color: white;
     height: 300px;
+    width: 1300px;
     display: flex;
     justify-content: space-evenly;
     
@@ -1585,6 +1607,7 @@ button {
     color: white;
     border-top: 0.5px solid white;
     height: 90px;
+    width: 1300px;
     display: flex;
     align-items: center;
  }
@@ -1600,7 +1623,6 @@ button {
  .logo img {
     height: 50px;
     width: 100px;
-    background-color: white;
  }
  .pannel-section2{
     background-color: #222f3d;
@@ -1609,21 +1631,23 @@ button {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     margin-left: 100px;
  }
  .language {
     border: 1.5px solid grey;
+
 }
 .add-icon2 {
     display: flex;
     justify-content: space-evenly;
     width: 100px;
-    height: 30px;
+    height: 25px;
     margin-top: 10px;
     margin-left: 5px;
     margin-right: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 
 }
 .Dollar {
@@ -1633,11 +1657,11 @@ button {
     display: flex;
     justify-content: space-evenly;
     width: 150px;
-    height: 30px;
+    height: 25px;
     margin-top: 10px;
     margin-left: 5px;
     margin-right: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 
 }
 .Country {
@@ -1651,11 +1675,11 @@ button {
     display: flex;
     justify-content: space-evenly;
     width: 150px;
-    height: 30px;
+    height: 25px;
     margin-top: 10px;
     margin-left: 5px;
     margin-right: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 
 }
 .foot-pannel4{
@@ -1807,6 +1831,7 @@ button {
     background-color:  #131A22;
     color: white;
     height: 80px;
+    width: 1300px;
     font-size: 0.7rem;
     text-align: center;
  }
